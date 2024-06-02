@@ -70,6 +70,7 @@ public class Book implements Comparable<Book> {
         return key;
     }
 
+    //переопределен туСтринг на все виды конструкторов.
     @Override
     public String toString() {
         if (this.key != null) {

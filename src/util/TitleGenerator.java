@@ -46,7 +46,7 @@ public class TitleGenerator {
                 int letterId = random.nextInt(firstAndLastPossibleLetters.length());
                 wordBuilder.append(firstAndLastPossibleLetters.charAt(letterId));
             } else {
-                //а здесь уже для остальных индексов накидаем букв:
+                //а здесь уже для остальных индексов накидаем букв/символов:
                 int letterId = random.nextInt(allPossibleLetters.length());
                 wordBuilder.append(allPossibleLetters.charAt(letterId));
             }
